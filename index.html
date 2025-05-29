@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAY! It's BOGO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="title">YAY! It's BOGO</h1>
+      <form id="product-form">
+        <!-- 1 Unit -->
+        <div class="product-option" data-units="1">
+          <label>
+            <input type="radio" name="units" value="1" checked />
+            <div class="option-content">
+              <div class="option-info-line">
+                <span class="unit-label">
+                  <span class="unit-count">1 Unit</span>
+                  <span class="badge badge-10">10% Off</span></span
+                >
+                <div class="option-price">
+                  <span class="price">$10.00 USD</span>
+                  <span class="old-price">$24.00 USD</span>
+                </div>
+              </div>
+              <span class="option-desc">Standard Price</span>
+            </div>
+          </label>
+        </div>
+
+        <!-- 2 Unit -->
+        <div class="product-option most-popular" data-units="2">
+          <label>
+            <input type="radio" name="units" value="2" />
+            <div class="option-content">
+              <div class="option-info-line">
+                <span class="unit-label">
+                  <span class="unit-count">2 Unit</span>
+                  <span class="badge badge-20">20% Off</span></span
+                >
+                <div class="option-price">
+                  <span class="price">$18.00 USD</span>
+                  <span class="old-price">$24.00 USD</span>
+                </div>
+              </div>
+              <div class="unit-dropdowns" style="display: none">
+                <div class="dropdown-row">
+                  <span>#1</span>
+                  <select class="size-select">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                  <select class="color-select">
+                    <option>Black</option>
+                    <option>Colour</option>
+                  </select>
+                </div>
+                <div class="dropdown-row">
+                  <span>#2</span>
+                  <select class="size-select">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                  <select class="color-select">
+                    <option>Black</option>
+                    <option>Colour</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <span class="most-popular-badge">MOST POPULAR</span>
+          </label>
+        </div>
+
+        <!-- 3 Unit -->
+        <div class="product-option" data-units="3">
+          <label>
+            <input type="radio" name="units" value="3" />
+            <div class="option-content">
+              <div class="option-info-line">
+                <span class="unit-label">
+                  <span class="unit-count">3 Unit</span>
+                  <span class="badge badge-30">30% Off</span></span
+                >
+                <div class="option-price">
+                  <span class="price">$24.00 USD</span>
+                  <span class="old-price">$24.00 USD</span>
+                </div>
+              </div>
+              <div class="unit-dropdowns" style="display: none">
+                <div class="dropdown-row">
+                  <span>#1</span>
+                  <select class="size-select">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                  <select class="color-select">
+                    <option>Black</option>
+                    <option>Colour</option>
+                  </select>
+                </div>
+                <div class="dropdown-row">
+                  <span>#2</span>
+                  <select class="size-select">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                  <select class="color-select">
+                    <option>Black</option>
+                    <option>Colour</option>
+                  </select>
+                </div>
+                <div class="dropdown-row">
+                  <span>#3</span>
+                  <select class="size-select">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                  <select class="color-select">
+                    <option>Black</option>
+                    <option>Colour</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+
+        <!-- Summary -->
+        <div class="summary-row">
+          <span class="free-delivery">Free Delivery</span>
+          <span class="total-label">Total :</span>
+          <span class="total-price">$10.00 USD</span>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="add-cart-btn">+ Add to Cart</button>
+        <div class="powered-by">@ Powered by Pumper</div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
